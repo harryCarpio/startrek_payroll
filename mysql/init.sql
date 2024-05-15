@@ -46,6 +46,10 @@ INSERT INTO `users` (`username`, `first_name`, `last_name`, `password`, `salary`
 ('montgomery_scott','Montgomery','Scott','ScottyDoesntKnow','1250'),
 ('hiraku_sulu','Hikaru','Sulu','parking-break-on','3500'),
 ('pavel_chekov','Pavel','Chekov','99victorvictor2','2500');
+('franklin_unibe','Franklin','Unibe','pcLN3AN3o411dxX','1600');
+('tabata_unibe','Tabata','Unibe','D2Q7GhH0e0Xx8nR','1600');
+('daniel_unibe','Daniel','Unibe','vTIZ0o9hvHYfY8W','1600');
+('geovanny_unibe','Geovanny','Unibe','DHFcfXXXzcc1ZT9','1600');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

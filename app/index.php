@@ -9,24 +9,25 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <?php
 if (!isset($_POST['s'])) {
 ?>
     <center>
         <form action="" method="post">
-            <h2>Payroll Login</h2>
-            <table style="border-radius: 25px; border: 2px solid black; padding: 20px;">
+            <h2>Sistema de roles de pago</h2>
+            <table style="border: 2px solid black; padding: 20px;">
                 <tr>
-                    <td>User</td>
+                    <td>Username</td>
                     <td><input type="text" name="user"></td>
                 </tr>
                 <tr>
-                    <td>Password</td>
+                    <td>Contraseña</td>
                     <td><input type="password" name="password"></td>
                 </tr>
                 <tr>
-                    <td><input type="submit" value="OK" name="s">
+                    <td><input type="submit" value="Login" name="s">
                 </tr>
             </table>
         </form>

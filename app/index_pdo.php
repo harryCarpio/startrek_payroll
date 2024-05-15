@@ -17,6 +17,7 @@ try {
     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
 ?>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
 <?php
 if (!isset($_POST['s'])) {
@@ -53,9 +54,9 @@ if ($_POST) {
 
     if ($stmt->execute([$user, $pass])) {
         echo "<center>";
-        echo "<h2>Welcome, " . $user . "</h2><br>";
-        echo "<table style='border-radius: 25px; border: 2px solid black;' cellspacing=30>";
-        echo "<tr><th>Username</th><th>Salary</th></tr>";
+        echo "<h2>Bienvenido, " . $user . "</h2><br>";
+        echo "<table style='border: 2px solid black;' cellspacing=30>";
+        echo "<tr><th>Username</th><th>Salario</th></tr>";
         if ($keys = $stmt->fetch()) {
             echo "<tr>";
             foreach ($keys as $key) {
